@@ -75,33 +75,44 @@ namespace homework_week1_day3
           */
 
 
-            Console.WriteLine("pick a letter");
-            char swithch = char.Parse(Console.ToLower());
-            char pick = char.Parse(Console.ReadLine());
-            char[] vow = { A, E, I, O, U } ; 
-         char[]  cons =  { b, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y};
-
-           
-
-
-
-        if (vow){
-            
-             Console.WriteLine("That letter a is a vowel");
-
-}
-
-    else {
-            
-             Console.WriteLine("The letter c is a consonant");
-
-}
+            /* Console.WriteLine("pick a letter");
+             char swithch = char.Parse(Console.ToLower());
+             char pick = char.Parse(Console.ReadLine());
+             char[] vow = { A, E, I, O, U } ; 
+          char[]  cons =  { b, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y};
 
 
 
 
 
-}
+         if (vow){
+
+              Console.WriteLine("That letter a is a vowel");
+
+ }
+
+     else {
+
+              Console.WriteLine("The letter c is a consonant");
+
+ }
+
+ */
+
+            //get average of the 4 nums this is problem (6)
+        /*    Console.WriteLine("pleas enter a 4 number!");
+            double firstNum = double.Parse(Console.ReadLine());
+            double secondNum = double.Parse(Console.ReadLine());
+            double thirdNum = double.Parse(Console.ReadLine());
+            double fourthNum = double.Parse(Console.ReadLine());
+            double average = (firstNum + secondNum + thirdNum + fourthNum) / 4;
+
+            Console.WriteLine("the average is " + average);
+
+    */
+
+
+        }
 
         }
 }
