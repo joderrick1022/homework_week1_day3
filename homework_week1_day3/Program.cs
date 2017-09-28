@@ -8,6 +8,8 @@ namespace homework_week1_day3
 {
     class Program
     {
+        private static readonly char M;
+
         static void Main(string[] args)
         {
             //pick two nums tell if they were equal or not!
@@ -47,32 +49,59 @@ namespace homework_week1_day3
               {
 
 
-                  Console.WriteLine(pick + " is a even number ");
-              }
+                  
   */
 
+            // positive or neg nums
 
-            Console.WriteLine("pick a number");
-            int pick = int.Parse(Console.ReadLine());
+            /*   Console.WriteLine("pick a number");
+               int pick = int.Parse(Console.ReadLine());
 
-            bool pos = (pick >= 0);
-            bool neg = (pick <= -1);
+               bool pos = (pick >= 0);
+               bool neg = (pick <= -1);
 
-            if (neg)
-            {
+               if (neg)
+               {
 
-                Console.WriteLine("The number " + pick + " is a negative number!");
+                   Console.WriteLine("The number " + pick + " is a negative number!");
 
-            }
+               }
 
-            else 
-            {
+               else 
+               {
 
-                Console.WriteLine("The number " + pick + " is a positive number!");
+                   Console.WriteLine("The number " + pick + " is a positive number!");
 
-            }
+          */
 
-        }
+
+            Console.WriteLine("pick a letter");
+            char swithch = char.Parse(Console.ToLower());
+            char pick = char.Parse(Console.ReadLine());
+            char[] vow = { A, E, I, O, U } ; 
+         char[]  cons =  { b, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y};
+
+           
+
+
+
+        if (vow){
+            
+             Console.WriteLine("That letter a is a vowel");
+
+}
+
+    else {
+            
+             Console.WriteLine("The letter c is a consonant");
+
+}
+
+
+
+
+
+}
 
         }
 }
