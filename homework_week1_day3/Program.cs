@@ -78,10 +78,11 @@ namespace homework_week1_day3
             Console.WriteLine("pick a letter");
         char  choice = Convert.ToChar(Console.ReadLine());
             
-            choice.ToLower();
-            char[] vow = { 'a' , 'e', 'i', 'o', 'u' };
-            char[] cons = { 'b', 'C', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z' };
+            
+            char[] vow = new char[]{ 'a' , 'e', 'i','o', 'u' };
+            char[] cons = new char[] { 'b', 'C', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z' };
 
+            
 
 
 
